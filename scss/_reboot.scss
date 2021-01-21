@@ -108,6 +108,7 @@ hr:not([size]) {
 h1 {
   @extend %heading;
   @include font-size($h1-font-size);
+  color: aqua;
 }
 
 h2 {
